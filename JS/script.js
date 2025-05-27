@@ -1,4 +1,4 @@
-// Using Function to check if a number is odd or even
+// Using Function to check if a number is odd or even.
 let num = parseInt(prompt("Enter a number"));
 
 function checkOddEven(number) {
