@@ -1,4 +1,5 @@
 // ////1///////
+////sum of digits///
 // let remainder=1;
 // let sum=0;
 // function sumd(a){
@@ -15,8 +16,8 @@
 
 
 
-// // // // // // ////2//////
-
+ ////2//////
+///count even numbers///
 
 
 // // let count1=0;
@@ -54,7 +55,9 @@
 
 
 
-// // // // ///////3////////
+
+////3////////
+//Perfect Squares//
 // // // // // let a=parseInt(prompt("Enter the number"))
 // // // // // let y=a**(1/2);
 // // // // // let c=parseInt(a/y)
@@ -87,7 +90,10 @@
 
 
 
-// // // // /////4///////
+
+/////4///////
+///Salary///
+
 // // // function salary(sal)
 // // // {
 // // //     sal=sal+hours*50;
