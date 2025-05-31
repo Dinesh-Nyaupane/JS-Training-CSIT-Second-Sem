@@ -9,3 +9,4 @@ function checkOddEven(num) {
 
             let num = parseInt(prompt("Enter number:"));
             checkOddEven(num);
+               
