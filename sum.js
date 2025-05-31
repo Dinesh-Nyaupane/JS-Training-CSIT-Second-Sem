@@ -13,8 +13,8 @@ function sumOfDigits(num) {
 
 const input = Number(prompt("Enter positive number:"));
 if (input < 0 || isNaN(input)) {
-    alert("Enter valid number:");
+    console.log("Enter valid number:");
 } else {
     const result = sumOfDigits(input);
-    alert(`Sum of digits is: ${result}`);
+    console.log(`Sum of digits is: ${result}`);
 }
