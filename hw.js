@@ -1,6 +1,7 @@
 function sod(){
     let x=12345;
      temp =x;
+     let sum =0;
     while(x!=0){
         let rem = x%10;
         sum=sum*10+rem;
@@ -33,11 +34,11 @@ function root(){
 }
 
 function sal(){
-    hr=5;
-    hrExtra=2;
+    let hr=5;
+    let hrExtra=2;
     basic=200;
-    bonus=(hrExtra-5)*50;
-    salary=basic+bonus;
+    let bonus=(hrExtra-5)*50;
+    let salary=basic+bonus;
     return salary;
 }
 
@@ -52,9 +53,9 @@ function test() {
 }
 
 console.log(a);  //10  
-root();
-test();
-sod();
-sal();
-root();
-count();
+console.log(root());
+console.log(test());
+console.log(sod());
+console.log(sal());
+console.log(root());
+console.log(count());
