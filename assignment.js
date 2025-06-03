@@ -53,9 +53,9 @@ function test() {
 }
 
 console.log(a);  //10  
-root();
+// root();
 test();
-sod();
-sal();
-root();
-count();
+// sod();
+// sal();
+// root();
+// count();
