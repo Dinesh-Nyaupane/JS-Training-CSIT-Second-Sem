@@ -481,7 +481,7 @@ What to Use:
 Math.max(), isNaN()
 */
 
-//NOTE : isFinite also converts string into number but not datatype i.e; reads as string but take as value 
+//NOTE : isFinite also converts string into number but not datatype i.e; reads as string but take as value
 /*
 
 isFinite("123");       // true – "123" is converted to the number 123
@@ -506,7 +506,7 @@ isFinite("0");         // true – "0" is a finite number
 // //   console.log("Maximum valid transaction amount is "+(res));
 // }else if(isNaN(T2))
 //     {
-//        res = Max_Transaction_finder(T1, T3);  
+//        res = Max_Transaction_finder(T1, T3);
 // //   console.log("Maximum valid transaction amount is "+(res));
 
 //     }else if(isNaN(T3))
@@ -517,7 +517,6 @@ isFinite("0");         // true – "0" is a finite number
 //                res = Max_Transaction_finder(T1, T2, T3);
 //   console.log("Maximum valid transaction amount is "+(res));
 //         }
-
 
 //         function Max_Transaction_finder(T1 = 0, T2 = 0, T3 = 0)
 // {
@@ -533,10 +532,10 @@ isFinite("0");         // true – "0" is a finite number
 //   res = Max_Transaction_finder(T2, T3);
 //   if(isNaN(T2))
 //   {
-//       res = Max_Transaction_finder(T1, T3);  
+//       res = Max_Transaction_finder(T1, T3);
 //     }if(isNaN(T3))
 //     {
-//       res = Max_Transaction_finder(T1, T2);  
+//       res = Max_Transaction_finder(T1, T2);
 //     }
 //     if(isNaN(T1) && isNaN(T2) && isNaN(T3))
 //         {
@@ -545,12 +544,12 @@ isFinite("0");         // true – "0" is a finite number
 //         else{
 //             res = Max_Transaction_finder(T1, T2, T3);
 //             console.log("Maximum valid transaction amount is "+(res));
-//             }  
-//     } 
+//             }
+//     }
 //     else{
 //         console.log("Maximum valid transaction amount is "+(res));
-// }  
-    
+// }
+
 //-----------------------------------------------------------------------------------
 // Assignment - 14
 //-----------------------------------------------------------------------------------
@@ -637,8 +636,145 @@ What to Use:
 Math.random(), Math.floor()
 */
 
+/*
 function LenGenerate()
 {
 console.log(Math.floor(Math.random()* 9)+8);
 }
 LenGenerate();
+*/
+
+//-----------------------------------------------------------------------------------
+// Assignment - 17
+//-----------------------------------------------------------------------------------
+/*
+17. 👶 Age Validator
+Problem:
+
+Validate age between 0 and 120 inclusive.
+
+Sample Input:
+25
+
+Sample Output:
+true
+
+Invalid Input:
+150
+
+Sample Output:
+false
+
+What to Use:
+isFinite(), Boolean primitive
+
+*/
+
+/*
+function Agevalidator(age) {
+  if(isFinite(age))
+  {
+    if (age > 0 && age < 120) {
+    return 1;
+  } else {
+    return 0;
+  }
+  }
+}
+let age = Number(prompt("Enter the age : "));
+
+if (Agevalidator(age)) {
+  console.log("True");
+} else {
+  console.log("False");
+}
+  */
+
+//-----------------------------------------------------------------------------------
+// Assignment - 18
+//-----------------------------------------------------------------------------------
+
+/*
+18. 💱 Currency Converter
+Problem:
+Convert USD to EUR at fixed rate (e.g., 0.915).
+
+Sample Input:
+100
+
+Sample Output:
+100 USD equals 91.50 EUR
+
+What to Use:
+Number(), toFixed()
+*/
+
+/*
+function Currencyconverter(USD)
+{
+  return (USD * 0.878);
+}
+let USD = Number(prompt("Enter the amount : "));
+let res = Currencyconverter(USD);
+console.log((USD)+" USD equals "+(res).toFixed(2));
+*/
+
+
+//-----------------------------------------------------------------------------------
+// Assignment - 19
+//-----------------------------------------------------------------------------------
+/*
+19. 🎨 Random Hex Color Generator
+Problem:
+Generate random 6-digit hex color code string with #.
+
+Sample Output:
+Generated color code: #3a5fcd
+
+What to Use:
+Math.random(), toString(16)
+*/
+
+/*
+function HEXcolrgen()
+{
+  return Math.floor((Math.random()*16777215)).toString(16)  ;
+}
+let code = HEXcolrgen();
+console.log("#"+code);
+*/
+
+//-----------------------------------------------------------------------------------
+// Assignment - 20
+//-----------------------------------------------------------------------------------
+
+/*
+20. 💼 Loan Eligibility Checker
+Problem:
+Check if income > 3×expenses.
+
+Sample Input:
+Income = 9000, Expenses = 2500
+
+Sample Output:
+Loan eligibility: true
+
+What to Use:
+Number(), Boolean primitive
+*/
+
+/*
+function Loan_eligibility_checker(income, Expenses)
+{
+  if(income > Expenses)
+  {
+    return "True";
+  }else{
+    return "False";
+  }
+}
+let income = Number(prompt("Enter your income : "));
+let Expenses = Number(prompt("Enter your Expenses : "));
+let res = Loan_eligibility_checker(income, Expenses);
+console.log("Load Eligibility : "+(res));
+*/
