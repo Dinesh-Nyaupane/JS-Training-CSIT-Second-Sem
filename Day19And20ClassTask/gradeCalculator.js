@@ -1,6 +1,7 @@
 //Grade Calculator
 function calculateGrade(score) {
-  if (!isFinite(score) || score < 0 || score > 100) return false;
+  let bool_false= false;
+  if (!isFinite(score) || score < 0 || score > 100) return bool_false;
   else if (score >= 80) return "A";
   else if (score >= 60) return "B";
   else if (score >= 40) return "C";
