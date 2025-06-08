@@ -564,10 +564,10 @@ Sample Input:
 Sample Output:
 Square root of 16 is 4
 
-Invalid Input:
+//Invalid Input:
 -9
 
-Sample Output:
+//Sample Output:
 false
 
 What to Use:
@@ -777,4 +777,4 @@ let income = Number(prompt("Enter your income : "));
 let Expenses = Number(prompt("Enter your Expenses : "));
 let res = Loan_eligibility_checker(income, Expenses);
 console.log("Load Eligibility : "+(res));
-*/
+*////test
