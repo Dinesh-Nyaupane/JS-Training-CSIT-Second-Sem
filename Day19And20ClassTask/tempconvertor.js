@@ -8,4 +8,4 @@ function convertToFahrenheit(celsius) {
   }
 }
 let temp = Number(prompt("Enter temperature in Celsius"));
-console.log(temp +" °C equal to " +tempConvert(temp) + " °F");
+console.log(temp +" °C equal to " +convertToFahrenheit(temp) + " °F");
