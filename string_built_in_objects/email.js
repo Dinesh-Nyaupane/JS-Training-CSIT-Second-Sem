@@ -20,3 +20,4 @@ let n = Number (i-1)
 console.log(email.replace(word,"*".repeat(n)));
 }
 }
+hh
