@@ -24,11 +24,13 @@
 // console.log(word+text);
 //11
 let p="jhon@example.com"
+let a=0
 for(let i=0;i>p.length;i++)
 {
     if(p[i]=="@")
     {
-        let a=i;
+        a=i;
     }
-}
+    }
 console.log(p.slice(1,a));
+
