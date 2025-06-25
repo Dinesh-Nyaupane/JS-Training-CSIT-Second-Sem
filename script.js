@@ -1,10 +1,10 @@
 // Function to check odd or even
-function OddEven(num) {
-  if (num % 2 === 0) {
-    alert(num + " is Even");
-  } else {
-    alert(num + " is Odd");
-  }
+ function evenodd(num){
+    return num%2==0;
 }
-OddEven(5); 
-OddEven(12); 
+if(even(10)){
+    console.log(even);
+}
+else{
+    console.log(odd);
+}
