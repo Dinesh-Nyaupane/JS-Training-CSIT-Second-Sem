@@ -317,3 +317,195 @@ Mask(input);
 
 */
 
+//--------------------------------------------------------------------------------------
+
+/*
+13. Censor a Word in a Sentence
+Problem: Replace a given word with *** in a sentence.
+
+Hint: Use .replace().
+
+Sample Input: "He is rude" (censor "rude")
+
+Sample Output: "He is ***"
+*/
+
+/*
+
+let input = "He is rude" ;
+let Output = input.replace("rude", "***") ;
+console.log(Output);
+
+*/
+
+//--------------------------------------------------------------------------------------
+
+/*
+14. Check if a Word Ends with "ing"
+Problem: Check if the string ends with "ing".
+
+Hint: Use .endsWith("ing").
+
+Sample Input: "running"
+
+Sample Output: true
+*/
+
+/*
+
+function check(str)
+{
+  let input = "running" ;
+  if(input.endsWith(str))
+  {
+    return 1 ;
+  }else{
+    return 0 ;
+  }
+}
+let str = prompt("Enter the string you want to check : ");
+if(check(str))
+{
+  console.log("Yes");
+}else{
+  console.log("No");
+}
+
+*/
+
+//--------------------------------------------------------------------------------------
+/*
+15. Make a Word Excited
+Problem: Convert a word to uppercase and repeat it twice, separated by -.
+
+Hint: Use .toUpperCase() and .concat().
+
+Sample Input: "wow"
+
+Sample Output: "WOW-WOW"
+
+*/
+
+/*
+
+let str = "wow" ;
+let capital_twice = (str.toUpperCase()) ;
+let finalres = capital_twice.concat("-", capital_twice);
+console.log(finalres);
+
+*/
+
+//--------------------------------------------------------------------------------------
+/*
+16. Create a Short Code
+Problem: Return the first 3 letters of a word in uppercase.
+
+Hint: Use .slice(0, 3) and .toUpperCase().
+
+Sample Input: "developer"
+
+Sample Output: "DEV"
+*/
+
+/*
+
+let str = "developer" ;
+let Output = str.slice(0, 3).toUpperCase() ;
+console.log(Output);
+
+*/
+
+//--------------------------------------------------------------------------------------
+/*
+17. Starts with a Specific Letter
+Problem: Check if a word starts with the letter "A" or "a".
+
+Hint: Use .toUpperCase() and .startsWith("A").
+
+Sample Input: "Apple"
+
+Sample Output: true
+*/
+
+/*
+
+function check(str)
+{
+   if(str.startsWith("a") || str.toUpperCase().startsWith("A"))
+   {
+    return 1 ;
+   }else{
+    return 0 ;
+   }
+}
+let str = "helloWorld !" ;
+if(check(str))
+{
+  console.log("True");
+}else{
+  console.log("False");
+}
+
+*/
+
+//--------------------------------------------------------------------------------------
+/* 
+18. Format Greeting Using Name
+Problem: Return a greeting in the format: "Hello, NAME!" with name in uppercase.
+
+Hint: Use .toUpperCase() and .concat().
+
+Sample Input: "ravi"
+
+Sample Output: "Hello, RAVI!"
+*/
+
+/*
+
+let str1 = "Hello, " ;
+let str2 = "rajiv" ;
+
+let Output = str1.concat(str2.toUpperCase());
+console.log(Output)
+
+*/
+
+//--------------------------------------------------------------------------------------
+/*
+19. Emphasize a Word with Symbols
+Problem: Surround the word with ** on both sides.
+
+Hint: Use string concatenation.
+
+Sample Input: "cool"
+Sample Output: "**cool**"
+*/
+
+/*
+
+let str = "cool" ;
+let helper1 = "**".concat(str);
+let helper2 = helper1.concat("**")
+
+console.log(helper2);
+
+*/
+
+//--------------------------------------------------------------------------------------
+/*
+20. Convert Spaces to Dashes
+Problem: Replace all spaces in a sentence with dashes.
+
+Hint: Use .replaceAll(" ", "-").
+
+Sample Input: "Learn JavaScript Now"
+Sample Output: "Learn-JavaScript-Now"
+*/
+
+/*
+
+let input = "Learn JavaScript Now" ;
+let output = input.replaceAll(" ", "-");
+console.log(output);
+
+*/

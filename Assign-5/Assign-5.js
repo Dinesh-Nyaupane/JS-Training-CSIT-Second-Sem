@@ -104,3 +104,32 @@ for(let i = 0 ; i < len ; i++)
 console.log("The count of most repeated character is : "+(maxcount));
 
 */
+
+//----------------------------------------------------------------------------------------------
+//5) Write a program to remove the duplicate string presented in the given string 
+
+let str = prompt("Enter the string you want to check : ");
+let len = str.length ;
+let count = 0 ;
+let maxcount = 0 ;
+let finalres = 0 ;
+for(let i = 0 ; i < len ; i++)
+{
+  let index ;
+  let cmpstr = str.charAt(i) ;
+  count = 0 ; // resetting count for each new character
+  for(let j = i+1 ; j < len ; j++)
+  {
+    if(str.charAt(j) == cmpstr)
+    {
+      count++ ;
+       index = j ;
+    }
+  }
+  if (count > maxcount) {
+     finalres = str.replace(str.charAt(index), "") ;
+     str = finalres ;
+     output = str ;
+  }
+}
+console.log("The count of most repeated character is : "+ output);
