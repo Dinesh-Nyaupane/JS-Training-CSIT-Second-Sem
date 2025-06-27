@@ -28,7 +28,7 @@ Sample Output: 18
 
 /*
 
-function laamo()
+function laamo(Input)
 {
 console.log(Input.length);
 }
@@ -83,7 +83,7 @@ Sample Output: "JAVASCRIPT"
 
 /*
 
-function bigLetter()
+function bigLetter(Input)
 {
 console.log(Input.toUpperCase());
 }
@@ -112,7 +112,7 @@ Sample Output: "hello"
 
 function smallLetter()
 {
-console.log(Input.toLowerCase());
+console.log(Input.toLowerCase(Input));
 }
 let Input = "JAVASCRIPT" ;
 smallLetter(Input);
@@ -132,7 +132,7 @@ Sample Output: "Welcome to coding!"
 
 /*
 
-function spaceCut()
+function spaceCut(Input)
 {
 console.log(Input.trim(" "));
 }
@@ -157,7 +157,7 @@ Sample Output: "evel"
 
 /*
 
-function suckChar()
+function suckChar(Input)
 {
  console.log(Input.slice(1, 5));
 }
@@ -182,7 +182,7 @@ Sample Output: "ude"
 
 /*
 
-function suckcharmid()
+function suckcharmid(Input)
 {
 console.log(Input.substring(2, 5));
 }
@@ -204,7 +204,7 @@ Sample Output: "HiHiHi"
 
 /*
 
-function lagatar()
+function lagatar(input)
 {
   console.log(input.repeat(3))
 }
@@ -226,3 +226,94 @@ Sample Input: "This is a bad day"
 
 Sample Output: "This is a good day"
 */
+
+/*
+
+function replacingWord(input)
+{
+console.log(input.replace("bad","good"))
+}
+let input = "This is a bad day" ;
+replacingWord(input);
+
+*/
+//--------------------------------------------------------------------------------------
+
+
+//--------------------------------------------------------------------------------------
+/* 
+10. Join Two Words Together
+Problem: Combine two words into one.
+
+Hint: Use .concat() or + operator.
+
+Sample Input: "Happy", "Day"
+
+Sample Output: "HappyDay"
+*/
+
+/*
+
+function superGlue()
+{
+console.log(str1.concat(str2));
+}
+let str1 = "Happy" ;
+let str2 = "Day" ;
+superGlue(str1, str2);
+
+*/
+//--------------------------------------------------------------------------------------
+/*
+🔸 Tricky & Real-Life Simulation Problems (11–20)
+Focus: Combining multiple string methods (no arrays or loops).
+*/
+/*
+11. Normalize a User’s Name
+Problem: Trim and convert a name to lowercase.
+
+Hint: Use .trim() and .toLowerCase().
+
+Sample Input: "  Alice SMITH  "
+
+Sample Output: "alice smith"
+*/
+
+/*
+
+function normalize(input)
+{
+console.log(input.toLowerCase().trim()) ;
+}
+let input = "  Alice SMITH  " ;
+normalize(input);
+
+*/
+//--------------------------------------------------------------------------------------
+/*
+12. Mask the Username in an Email
+Problem: Hide all characters in the email username except the first character.
+
+Hint: Use .charAt(), .slice(), .repeat().
+
+Sample Input: "john@example.com"
+
+Sample Output: "j***@example.com"
+*/
+
+/*
+
+function Mask(input)
+{
+Index = input.indexOf("@");
+firstchar = input.charAt(0);
+masked = firstchar + "*".repeat(Index - 1);
+domain = input.slice(Index);
+console.log(masked + domain);
+}
+let Index , firstchar, domain ,masked;
+let input = "john@example.com" ;
+Mask(input);
+
+*/
+
