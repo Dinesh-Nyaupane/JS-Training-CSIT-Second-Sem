@@ -54,7 +54,7 @@ Branching means creating a separate line of development in your project. It's li
 Open **PowerShell (Windows)** or **Terminal (Mac/Linux)**:
 
 ```bash
-git clone https://github.com/your-username/training-demo-repo.git
+git clone https://github.com/Dinesh-Nyaupane/JS-Training-CSIT-Second-Sem.git
 ```
 
 > Replace `your-username` with your actual GitHub username.
