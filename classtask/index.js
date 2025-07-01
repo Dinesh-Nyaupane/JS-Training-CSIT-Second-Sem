@@ -134,3 +134,76 @@
 
 
 ////////13//////
+// let bool=[true,true,false,true]
+// let booll=bool.some((val)=>val==false)
+// if(bool)
+// {
+//     console.log("some items are out of stock")
+// }
+// else{
+    
+// }
+
+
+
+
+//////14/////
+// let array=[2,3,42,23,11]
+// let array1=array.reduce(num)
+// function num(a,b)
+// {
+//     return a*b
+
+// }
+// console.log(array1)
+// num(array)
+
+
+
+
+/////////15///////
+// let array=["hello",1,2,"nice",5]
+// let clean=array.filter(num)
+// function num(a)
+// {
+//     return parseInt(a)
+// }
+// console.log(clean)
+// num(array)
+
+
+/////16////
+// let array=[5,3,1,3,5,5,3,5]
+// let array1=array.filter((num)=>num==5)
+// let count=array1.length;
+// console.log(count)
+
+// let array1=[];
+// for(let i=0;i<=5;i++)
+// {
+//     array=prompt("Enter the number")
+//     array1.push(array)
+// }
+// let numtocount=prompt(parseInt("Enter the number"))
+// let remove=array1.filter((num)=>num==numtocount)
+// let count=remove.length;
+// console.log(count)
+
+
+
+
+
+/////////17////////
+// let word="samip"
+// let splittedword=word.split("")
+// let rev=splittedword.reduceRight((acc,val)=>acc+val)
+// console.log(rev)
+
+
+
+//////18////////
+// let genre=["Rock", "Jazz", "Pop"]
+// let add=genre.map((word)=>word+"🎵")
+// console.log(add)
+
+

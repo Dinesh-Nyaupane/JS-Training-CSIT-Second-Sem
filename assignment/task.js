@@ -1,28 +1,3 @@
-// // // // // // // // // // // // // ``let a="          samip sharma "
-// // // // // // // // // // // // // console.log(a)
-// // // // // // // // // // // // // console.log(typeof(a))
-// // // // // // // // // // // // // console.log(a.length)
-// // // // // // // // // // // // // console.log(a.charCodeAt(0))
-// // // // // // // // // // // // // console.log(a.split("i3[]"))
-// // // // // // // // // // // // // console.log(a.trim(""))
-
-
-// // // // // // // // // // // // /////1/////
-// // // // // // // // // // // // let a="hello everyone! I am from tansen palpa"
-// // // // // // // // // // // // console.log(a.replaceAll(","";"))
-
-// // // // // // // // // // // /////2////
-
-// // // // // // // // // // // let a=prompt("Enter the country name")
-// // // // // // // // // // // let b=console.log(a.toLowerCase())
-// // // // // // // // // // // let c=console.log(b.trim(" "))
-// // // // // // // // // // // if(c.startsWith("a")||c.endsWith("A"))
-// // // // // // // // // // // {
-// // // // // // // // // // // 2
-// // // // // // // // // // // }
-
-////////////////////assignment//////////////////////////
-
 // // // // // // // // // // ////1////////
 
 // // // // // // // // // // let a="Samip";
@@ -92,18 +67,18 @@
 
 
 // // // // ////12////
-// let a=prompt("Enter the gmail")
-// let b=a.indexOf("@");
-// let c=a.slice(1,b)
-// let d=c.length;
-// let e;
-// for(i=1;i<=d;i++)
+// let mail=prompt("Enter the gmail")
+// let a=mail.slice(1,4)
+// let email1=mail.replace(a,"****")
+// console.log(email1)
 
+
+// function rep(a)
 // {
-
+// let email1=a.slice(1,4)
+// return a.replace(email1,"****")
 // }
-
-
+// console.log(rep("samip@gmail.com"))
 
 
 
@@ -163,52 +138,3 @@
 // // let b=a.replaceAll(" ","-")
 // // console.log(b);
 
-
-
-// ////////////Assignment 2/////////
-
-// ////1/////
-// // let a=[10
-// //       ,11,
-// //        23,
-// //        12,
-// //        33]
-// // let b=a.length;
-// // for(i=b-1;i>=0;i--)
-// // {
-// //     console.log(a[i])
-// // }
-
-
-// ////2//////
-// ///to count vowels///
-// // let a=["a","b","c","d","e","f","i","o"]
-// // let count=0;
-// // let b=a.length;
-// // for(i=0;i<=b-1;i++)
-// // {
-// //     if(a[i]=="a"||a[i]=="e"||a[i]=="i"||a[i]=="o"||a[i]=="u")
-// //     {
-// //         count++
-// //     }
-// // }
-// // console.log(count)
-
-
-// ///3///
-// // to check for palindrome/
-
-// ////4////
-// character frequency counter//
-// let a=["appple"]
-// let count=0;
-// let store;
-// for(i=0;i<=4;i++)
-// {
-//     if(a[i]==a[i+1])
-//     {
-//     store=
-//     }
-// }
-// console.log("a is repeated" + count1 + "times")
-// console.log("p is repeated" + count + "times")

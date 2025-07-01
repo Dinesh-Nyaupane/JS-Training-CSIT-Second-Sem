@@ -11,7 +11,7 @@
 
 
 // // // // // // // // // // //////Dice roll///
-// // // // // // // // // // console.log(parseInt(Math.random()*6+1))
+// console.log(parseInt(Math.random()*6+1))
 
 
 // // // // // // // // /////fuel consumtion//
@@ -149,4 +149,39 @@
 // console.log(max(num1,num,num2));
 
 
+//////square root checker////
+// function square(a)
+// {
+//     if(a>=0)
+//     {
+//         return Math.sqrt(a)
+//     }
+//     else{
+//     return("invalid number")
+//     }
+// }
+// let a=parseInt(prompt("Enter the number"))
+// console.log(square(a))
 
+
+
+///////absolute tempr between two tempr//
+// function absolute(a,b)
+// {
+//     let diff=a-b;
+//     return(diff.toFixed(2))
+// }
+// let a=parseFloat(prompt("Enter the temp"))
+// let b=parseFloat(prompt("Enter the temp"))
+// console.log(absolute(a,b))
+
+
+////Random Password Length Generator//
+
+
+// function passgen()
+// {
+//     let a=Math.random()*(8)+8/////+8shifts the generated number by 8
+//     return Math.floor(a)
+// }
+// console.log(passgen())
