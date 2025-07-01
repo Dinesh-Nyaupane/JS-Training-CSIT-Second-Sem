@@ -5,3 +5,4 @@ function calculateBMI(weight, height) {
 let w = Number(prompt("Enter weight in kg"));
 let h = Number(prompt("Enter height in meters"));
 console.log("BMI calculated as " + calculateBMI(w, h));
+

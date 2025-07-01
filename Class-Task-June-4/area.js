@@ -4,3 +4,4 @@ function area(radi) {
 }
 let radius = Number(prompt("Enter radius"));
 console.log(area(radius));
+

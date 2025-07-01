@@ -17,3 +17,4 @@ let t3 = parseFloat(prompt("Enter transaction 3"));
 console.log(
   "Maximum valid transaction amount is " + maxTransaction(t1, t2, t3)
 );
+

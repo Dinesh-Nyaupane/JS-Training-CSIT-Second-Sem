@@ -6,3 +6,4 @@ function tempDifference(t1, t2) {
 let temp1 = Number(prompt("Enter temperature 1"));
 let temp2 = Number(prompt("Enter temperature 2"));
 console.log("Temperature difference is " +tempDifference(temp1, temp2));
+

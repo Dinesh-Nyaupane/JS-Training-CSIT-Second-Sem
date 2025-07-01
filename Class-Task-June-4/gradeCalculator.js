@@ -10,3 +10,4 @@ function calculateGrade(score) {
 }
 let score = Number(prompt("Enter score (0-100)"));
 console.log("Score " + score + " corresponds to grade " + calculateGrade(score));
+
