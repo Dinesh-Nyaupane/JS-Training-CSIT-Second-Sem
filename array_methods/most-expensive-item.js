@@ -1,4 +1,4 @@
-itemPrice = [80,70,10,50,60]
+itemPrice = [80,70,100,50,60]
 
 expensiveItem = itemPrice.reduce((acc,currVal) => {
     currVal>acc? currVal : acc
