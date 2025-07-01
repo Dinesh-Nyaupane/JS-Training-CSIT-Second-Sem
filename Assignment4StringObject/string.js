@@ -6,7 +6,7 @@
 let message="Hello Everyone! I am from Tansen Palpa";
 console.log(message.replaceAll(/ /g,"-"));
 */
-/*******************Problem-1******************************************************* */
+/*******************   Problem-1  ****************************************************** */
 /*
 Focus: Understanding .length, charAt(), slice(), substring(), concat(), 
 repeat(), trim(), toLowerCase(), toUpperCase(), and replace().
