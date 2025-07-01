@@ -257,3 +257,136 @@ console.log(
 );
 
 */
+
+//----------------------------------------------------------------------------------
+//     PROBLEM - 14 :
+//----------------------------------------------------------------------------------
+/*
+🔢 Problem 14: Product of All Elements
+Problem: Calculate the product of all elements in a given array for performance analytics. 
+Hint: Use .reduce(). Input: [1, 2, 3, 4] Output: Product: 24
+*/
+
+/*
+let productPerformance = [1, 2, 3, 4];
+console.log(`Output: Product:  ${productPerformance.reduce((acc, product) => acc * product ,1)}`);
+ */
+
+//----------------------------------------------------------------------------------
+//     PROBLEM - 15 :
+//----------------------------------------------------------------------------------
+/*
+📊 Problem 15: Extract Numbers from Mixed Array
+Problem: In a data cleaning process, extract only numeric values from a mixed-type array. 
+Hint: Use .filter() + typeof. 
+Input: [1, "hello", 3, true, 5] 
+Output: [1, 3, 5]
+*/
+
+/*::NOTE:
+So typeof always returns a lowercase string, like "number", "string", "boolean", "object", "function", etc.
+*/
+
+/*
+let MixedArray = [1, "hello", 3, true, 5];
+console.log("Output : " , MixedArray.filter((element) => typeof element === "number"));
+*/
+
+//----------------------------------------------------------------------------------
+//     PROBLEM - 16 :
+//----------------------------------------------------------------------------------
+
+/*
+📞 Problem 16: Count Specific Number Frequency
+Problem: Given an array of feedback scores, count how many times a particular score (e.g., 5) was given. 
+Hint: Use .filter() and .length.
+ Input: [5, 2, 5, 6, 5], find 5 Output: 5 occurs 3 times.
+*/
+
+/*
+
+let numArray = [5, 2, 5, 6, 5];
+let filtered = numArray.filter((num) => num % 5 === 0 );
+console.log(`Output: 5 occurs ${filtered.length} times.`);
+
+*/
+//----------------------------------------------------------------------------------
+//     PROBLEM - 17 :
+//----------------------------------------------------------------------------------
+
+/*
+🔁 Problem 17: Reverse a Name
+Problem: A text editor needs to reverse a string input character by character. 
+Hint: Use .split("") + .reduceRight().
+ Input: "coding" Output: gnidoc
+*/
+
+/*
+let stringInput = "coding" ;
+let array = stringInput.split("");
+console.log(`Output : ${array.reduceRight((acc, val) => acc + val)}`);
+*/
+
+//----------------------------------------------------------------------------------
+//     PROBLEM - 18 :
+//----------------------------------------------------------------------------------
+/*
+🎵 Problem 18: Enhance Playlist Titles
+Problem: In a music app, append a 🎵 emoji to each playlist name for design improvement.
+ Hint: Use .map().
+  Input: ["Rock", "Jazz", "Pop"] Output: ["Rock🎵", "Jazz🎵", "Pop🎵"]
+*/
+
+/*
+let playlist = ["Rock", "Jazz", "Pop"];
+let musicWithEmoji = playlist.map((music) => music + "🎵");
+console.log("Output:" , musicWithEmoji);
+*/
+
+//----------------------------------------------------------------------------------
+//     PROBLEM - 19 :
+//----------------------------------------------------------------------------------
+/*
+🔍 Problem 19: First Prime Number Detection
+Problem: In a math tutoring tool, detect the first prime number from a user-entered array. 
+Hint: Use .find() with a custom isPrime() function.
+ Input: [4, 6, 8, 11, 15] Output: First prime: 11
+*/
+
+
+/*
+
+let mathArray = [4, 6, 8, 11, 15];
+
+function isPrime(num) {
+  if (num <= 1) return false; 
+  if (num === 2) return true; 
+  if (num % 2 === 0) return false; 
+  for (let i = 3; i <= Math.sqrt(num); i += 2) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+
+let firstPrime = mathArray.find(isPrime);
+
+console.log(`Output: First prime: ${firstPrime}`);
+*/
+
+//----------------------------------------------------------------------------------
+//     PROBLEM - 20 :
+//----------------------------------------------------------------------------------
+/*
+🧺 Problem 20: Remove Duplicate Orders
+Problem: In an order management system, remove duplicate order IDs from the log. 
+Hint: Use .filter() with indexOf() check. 
+Input: [1, 2, 2, 3, 4, 4, 5] Output: [1, 2, 3, 4, 5]
+*/
+
+let OrderIdsArray = [1, 2, 2, 3, 4, 4, 5];
+
+let Output = OrderIdsArray.filter((element, index) => {
+  return OrderIdsArray.indexOf(element) === index;
+});
+
+console.log(Output); // [1, 2, 3, 4, 5]
