@@ -3,3 +3,4 @@ function calculateTotalSalary(basicSalary, extraHours) {
 }
 
 console.log("Total salary:", calculateTotalSalary(10000, 5));
+

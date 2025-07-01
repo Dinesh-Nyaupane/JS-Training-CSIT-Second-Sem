@@ -8,3 +8,4 @@ function isPalindrome(str) {
 }
 let input = "wow";
 console.log(isPalindrome(input));
+

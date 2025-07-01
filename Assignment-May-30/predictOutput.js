@@ -9,3 +9,4 @@ function test() {
 }
 test();
 console.log(a); //  Output: 10 (global variable)
+

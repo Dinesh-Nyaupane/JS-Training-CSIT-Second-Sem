@@ -6,3 +6,4 @@ function speedCheck(speed) {
 console.log(speedCheck(25)); // Output: "Slow"
 console.log(speedCheck(45)); // Output: "Average"
 console.log(speedCheck(75)); // Output: "Fast"
+

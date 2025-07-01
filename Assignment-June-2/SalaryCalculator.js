@@ -5,3 +5,4 @@ function calculateSalary(hoursWorked) {
   return hoursWorked <= 40 ? hoursWorked * 10 : 400 + overtimePay(hoursWorked - 40);
 }
 console.log(calculateSalary(45)); // Output: 475
+

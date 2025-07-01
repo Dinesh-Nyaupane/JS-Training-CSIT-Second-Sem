@@ -9,3 +9,4 @@ function countEvenBetween(start, end) {
 }
 
 console.log("Even numbers between 5 and 12:", countEvenBetween(5, 12));
+

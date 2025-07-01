@@ -2,3 +2,4 @@
 let wordToSymbol = (word) => "**".concat(word,"**");
 let input = "cool";
 console.log(wordToSymbol(input));
+

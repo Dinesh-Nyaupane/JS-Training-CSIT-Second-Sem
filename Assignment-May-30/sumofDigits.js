@@ -9,3 +9,4 @@ function sumOfDigits(n) {
 }
 
 console.log("Sum of digits:", sumOfDigits(1234));
+

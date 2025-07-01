@@ -12,3 +12,4 @@ if (found) {
 } else {
   console.log("The number " + input + " isn't in array");
 }
+

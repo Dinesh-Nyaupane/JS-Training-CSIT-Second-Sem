@@ -4,3 +4,4 @@ function tripTime(distance, speed) {
   return convertToMinutes(distance / speed);
 }
 console.log(tripTime(120, 60)); //120
+

@@ -6,3 +6,4 @@ function lowerWord(name) {
   return tripWord(name).toLowerCase();
 }
 console.log(lowerWord(input));
+

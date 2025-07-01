@@ -18,3 +18,4 @@ function charFrequencyCount(str) {
 }
 let input = "Apple";
 console.log(charFrequencyCount(input));
+

@@ -17,3 +17,4 @@ function countVowel(str) {
 }
 let input = "Apple";
 console.log(countVowel(input));
+

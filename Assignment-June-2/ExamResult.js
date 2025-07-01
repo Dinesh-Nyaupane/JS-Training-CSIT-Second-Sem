@@ -6,3 +6,4 @@ function examResult(marks1, marks2) {
 
 console.log(examResult(30, 25)); // Output: Pass
 console.log(examResult(20, 25)); // Output: Fail
+

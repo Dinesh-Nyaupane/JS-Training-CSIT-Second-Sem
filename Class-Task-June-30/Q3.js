@@ -5,3 +5,4 @@ let expensive = input.reduce((accumulator, currentValue) =>
   currentValue > accumulator ? currentValue : accumulator
 );
 console.log(`The maximum price is ${expensive}`);
+

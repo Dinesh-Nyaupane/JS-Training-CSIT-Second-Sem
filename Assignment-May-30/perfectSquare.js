@@ -10,3 +10,4 @@ function isPerfectSquare(n) {
 
 console.log("Is 25 a perfect square?", isPerfectSquare(25));
 console.log("Is 26 a perfect square?", isPerfectSquare(26));
+

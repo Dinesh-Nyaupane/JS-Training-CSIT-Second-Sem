@@ -22,3 +22,4 @@ function charFrequencyCount(str) {
 }
 let input = "Apple";
 charFrequencyCount(input);
+

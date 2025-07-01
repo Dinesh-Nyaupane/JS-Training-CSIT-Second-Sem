@@ -7,3 +7,4 @@ if (hasFailed) {
 } else {
   console.log("All students passed the exam.");
 }
+

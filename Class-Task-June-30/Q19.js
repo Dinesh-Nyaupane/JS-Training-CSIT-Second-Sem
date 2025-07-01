@@ -13,3 +13,4 @@ if (firstPrime) {
 } else {
   console.log("No prime number found.");
 }
+
