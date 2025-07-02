@@ -1,187 +1,190 @@
-// // // // // // // // // // // ///////area of circle//
-// // // // // // // // // // // let num=prompt(parseFloat("Enter the number"))
-// // // // // // // // // // // let area=Math.PI*Math.pow(num,2)
-// // // // // // // // // // // console.log(area.toFixed(2));
+// // // // // // // // // // // // ///////area of circle//
+// // // // // // // // // // // // let num=prompt(parseFloat("Enter the number"))
+// // // // // // // // // // // // let area=Math.PI*Math.pow(num,2)
+// // // // // // // // // // // // console.log(area.toFixed(2));
 
 
-// // // // // // // // // ////opt generator///
+// // // // // // // // // // ////opt generator///
 
-// // // // // // // // // console.log(Math.floor(Math.random()*900000+100000))
-
-
-
-// // // // // // // // // // //////Dice roll///
-// console.log(parseInt(Math.random()*6+1))
+// // // // // // // // // // console.log(Math.floor(Math.random()*900000+100000))
 
 
-// // // // // // // // /////fuel consumtion//
-// // // // // // // // let fuel=prompt(parseFloat("Enter the fuel consumption"))
-// // // // // // // // let Distance=prompt(parseFloat("Enter the distance travelled"))
-// // // // // // // // let runs=Distance/fuel;
-// // // // // // // // console.log(runs.toFixed(2))
-// // // // // // // //// E = P x R x (1+r)^n/ ( (1+r)^N – 1///
+
+// // // // // // // // // // // //////Dice roll///
+// // console.log(parseInt(Math.random()*6+1))
 
 
-// // // // // // // ///////EMI calculator///
-// // // // // // // // let p=prompt(parseFloat("Enter the principal"))
-// // // // // // // // let r=prompt(parseFloat("Enter the rate"))
-// // // // // // // // let t=prompt(parseFloat("Enter the time"))
+// // // // // // // // // /////fuel consumtion//
+// // // // // // // // // let fuel=prompt(parseFloat("Enter the fuel consumption"))
+// // // // // // // // // let Distance=prompt(parseFloat("Enter the distance travelled"))
+// // // // // // // // // let runs=Distance/fuel;
+// // // // // // // // // console.log(runs.toFixed(2))
+// // // // // // // // //// E = P x R x (1+r)^n/ ( (1+r)^N – 1///
 
-// // // // // // // // let E=p*r*Math.pow((1+r,t))/Math.pow((1+r,t-1))
-// // // // // // // // console.log(E)
+
+// // // // // // // // ///////EMI calculator///
+// // // // // // // // // let p=prompt(parseFloat("Enter the principal"))
+// // // // // // // // // let r=prompt(parseFloat("Enter the rate"))
+// // // // // // // // // let t=prompt(parseFloat("Enter the time"))
+
+// // // // // // // // // let E=p*r*Math.pow((1+r,t))/Math.pow((1+r,t-1))
+// // // // // // // // // console.log(E)
 
 
-// // // // // // // /////°F = (°C × 9/5) + 32///
-// // // // // // // ////Temperature converter///
-// // // // // // // let Temperature=parseFloat(prompt("Enter the temperature"))
-// // // // // // // function converter(temp)
+// // // // // // // // /////°F = (°C × 9/5) + 32///
+// // // // // // // // ////Temperature converter///
+// // // // // // // // let Temperature=parseFloat(prompt("Enter the temperature"))
+// // // // // // // // function converter(temp)
+// // // // // // // // {
+// // // // // // // //     let fahrenheit=(temp*9/5)+32
+// // // // // // // //     return fahrenheit.toFixed(2);
+// // // // // // // // }
+// // // // // // // // console.log(converter(Temperature));
+
+
+// // // // // // // //////random coupon code///
+// // // // // // // ////console.log(Math.floor(Math.random()*900000+100000))///
+
+
+// // // // // // // /////electricity bill calculator//
+// // // // // // // let unit=parseInt(prompt("Enter the unit"))
+// // // // // // // function electricity(bill)
 // // // // // // // {
-// // // // // // //     let fahrenheit=(temp*9/5)+32
-// // // // // // //     return fahrenheit.toFixed(2);
+// // // // // // //     if(unit>=0&&unit<=100)
+// // // // // // //     {
+// // // // // // //         return(unit*5);
+// // // // // // //     }
+// // // // // // //     else if(unit>=101&&unit<=200)
+// // // // // // //     {
+// // // // // // //         return(100*5+(unit-100)*7)
+// // // // // // //     }
+// // // // // // //     else if(unit>200)
+// // // // // // //     {
+// // // // // // //         return(100*5+100*7+(unit-200)*10)
+// // // // // // //     }
 // // // // // // // }
-// // // // // // // console.log(converter(Temperature));
+// // // // // // // console.log(electricity(unit))
 
 
-// // // // // // //////random coupon code///
-// // // // // // ////console.log(Math.floor(Math.random()*900000+100000))///
-
-
-// // // // // // /////electricity bill calculator//
-// // // // // // let unit=parseInt(prompt("Enter the unit"))
-// // // // // // function electricity(bill)
+// // // // // // /////dice re-roll////
+// // // // // // let roll=parseInt(Math.random()*6+1)
+// // // // // // console.log(roll)
+// // // // // // if(roll==1)
 // // // // // // {
-// // // // // //     if(unit>=0&&unit<=100)
-// // // // // //     {
-// // // // // //         return(unit*5);
-// // // // // //     }
-// // // // // //     else if(unit>=101&&unit<=200)
-// // // // // //     {
-// // // // // //         return(100*5+(unit-100)*7)
-// // // // // //     }
-// // // // // //     else if(unit>200)
-// // // // // //     {
-// // // // // //         return(100*5+100*7+(unit-200)*10)
-// // // // // //     }
+// // // // // //     console.log(parseInt(Math.random()*6+1))
 // // // // // // }
-// // // // // // console.log(electricity(unit))
 
+// // // // // ////Grade calculator//
 
-// // // // // /////dice re-roll////
-// // // // // let roll=parseInt(Math.random()*6+1)
-// // // // // console.log(roll)
-// // // // // if(roll==1)
+// // // // // function Grade(marks)
 // // // // // {
-// // // // //     console.log(parseInt(Math.random()*6+1))
+// // // // //     if(marks>=80&&marks<=100)
+// // // // //     {
+// // // // //         return("A")
+// // // // //     }
+// // // // //      else if(marks>=60&&marks<=79)
+// // // // //     {
+// // // // //         return("B")
+// // // // //     }
+// // // // //      else if(marks>=40&&marks<=59)
+// // // // //     {
+// // // // //         return("C")
+// // // // //     }
+// // // // //      else if(marks>=20&&marks<=30)
+// // // // //     {
+// // // // //         return("D")
+// // // // //     }
+// // // // //      else if(marks>=0&&marks<=19)
+// // // // //     {
+// // // // //         return("F")
+// // // // //     }
+// // // // //     else{
+// // // // //         return("Invalid result")
+// // // // //     }
 // // // // // }
+// // // // // let marks=parseInt(prompt("Enter the marks"))
+// // // // // console.log(Grade(marks))
 
-// // // // ////Grade calculator//
 
-// // // // function Grade(marks)
+
+// // // // //////Bank interest calculator//
+
+// // // // function intcal(p,t,r)
 // // // // {
-// // // //     if(marks>=80&&marks<=100)
-// // // //     {
-// // // //         return("A")
-// // // //     }
-// // // //      else if(marks>=60&&marks<=79)
-// // // //     {
-// // // //         return("B")
-// // // //     }
-// // // //      else if(marks>=40&&marks<=59)
-// // // //     {
-// // // //         return("C")
-// // // //     }
-// // // //      else if(marks>=20&&marks<=30)
-// // // //     {
-// // // //         return("D")
-// // // //     }
-// // // //      else if(marks>=0&&marks<=19)
-// // // //     {
-// // // //         return("F")
-// // // //     }
-// // // //     else{
-// // // //         return("Invalid result")
-// // // //     }
+// // // // let Inte=(p*t*r)/100;
+// // // // let amount=p+Inte;
+// // // // return(amount.toFixed(2))
+
 // // // // }
-// // // // let marks=parseInt(prompt("Enter the marks"))
-// // // // console.log(Grade(marks))
+// // // // let p=parseFloat(prompt("Enter the Principal"))
+// // // // let t=parseFloat(prompt("Enter the Rate"))
+// // // // let r=parseFloat(prompt("Enter the Time"))
+// // // // console.log(intcal(p,t,r))
 
 
+// // // ////// BMI = weight (kg) / height² (meters)////
 
-// // // //////Bank interest calculator//
 
-// // // function intcal(p,t,r)
+// // // ///////BMI calculator//
+
+
+// // // function cal(w,h)
 // // // {
-// // // let Inte=(p*t*r)/100;
-// // // let amount=p+Inte;
-// // // return(amount.toFixed(2))
-
+// // // let bmi=w/Math.pow(h,2);
+// // // return (bmi.toFixed(1));
 // // // }
-// // // let p=parseFloat(prompt("Enter the Principal"))
-// // // let t=parseFloat(prompt("Enter the Rate"))
-// // // let r=parseFloat(prompt("Enter the Time"))
-// // // console.log(intcal(p,t,r))
+// // // let w=parseFloat(prompt("Enter the weight"))
+// // // let h=parseFloat(prompt("Enter the height"))
+// // // console.log(cal(w,h))
 
 
-// // ////// BMI = weight (kg) / height² (meters)////
-
-
-// // ///////BMI calculator//
-
-
-// // function cal(w,h)
+// // /////Maximum transaction finder///
+// // function max(num1,num,num2)
 // // {
-// // let bmi=w/Math.pow(h,2);
-// // return (bmi.toFixed(1));
+// //     return(Math.max(num1,num,num2))
 // // }
-// // let w=parseFloat(prompt("Enter the weight"))
-// // let h=parseFloat(prompt("Enter the height"))
-// // console.log(cal(w,h))
+// // let num1=parseFloat(prompt("Enter the first deposit"))
+// // let num=parseFloat(prompt("Enter the second deposit"))
+// // let num2=parseFloat(prompt("Enter the Third deposit"))
+// // console.log(max(num1,num,num2));
 
 
-// /////Maximum transaction finder///
-// function max(num1,num,num2)
-// {
-//     return(Math.max(num1,num,num2))
-// }
-// let num1=parseFloat(prompt("Enter the first deposit"))
-// let num=parseFloat(prompt("Enter the second deposit"))
-// let num2=parseFloat(prompt("Enter the Third deposit"))
-// console.log(max(num1,num,num2));
-
-
-//////square root checker////
-// function square(a)
-// {
-//     if(a>=0)
-//     {
-//         return Math.sqrt(a)
-//     }
-//     else{
-//     return("invalid number")
-//     }
-// }
-// let a=parseInt(prompt("Enter the number"))
-// console.log(square(a))
+// //////square root checker////
+// // function square(a)
+// // {
+// //     if(a>=0)
+// //     {
+// //         return Math.sqrt(a)
+// //     }
+// //     else{
+// //     return("invalid number")
+// //     }
+// // }
+// // let a=parseInt(prompt("Enter the number"))
+// // console.log(square(a))
 
 
 
-///////absolute tempr between two tempr//
-// function absolute(a,b)
-// {
-//     let diff=a-b;
-//     return(diff.toFixed(2))
-// }
-// let a=parseFloat(prompt("Enter the temp"))
-// let b=parseFloat(prompt("Enter the temp"))
-// console.log(absolute(a,b))
+// ///////absolute tempr between two tempr//
+// // function absolute(a,b)
+// // {
+// //     let diff=a-b;
+// //     return(diff.toFixed(2))
+// // }
+// // let a=parseFloat(prompt("Enter the temp"))
+// // let b=parseFloat(prompt("Enter the temp"))
+// // console.log(absolute(a,b))
 
 
-////Random Password Length Generator//
+// ////Random Password Length Generator//
 
 
-// function passgen()
-// {
-//     let a=Math.random()*(8)+8/////+8shifts the generated number by 8
-//     return Math.floor(a)
-// }
-// console.log(passgen())
+// // function passgen()
+// // {
+// //     let a=Math.random()*(8)+8/////+8shifts the generated number by 8
+// //     return Math.floor(a)
+// // }
+// // console.log(passgen())
+
+
+
