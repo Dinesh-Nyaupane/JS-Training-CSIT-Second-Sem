@@ -100,8 +100,16 @@
 
 
 //20 Remove Duplicate Orders
+<<<<<<< HEAD
 // let input=[1, 2, 2, 3, 4, 4, 5];
 // let fil=input.filter((id,index,arr)=>{
 //     return arr.indexOf(id)==index;
 // })
 // console.log(fil)
+=======
+let input=[1, 2, 2, 3, 4, 4, 5];
+let fil=input.filter((id,index,arr)=>{
+    return arr.indexOf(id)==index;
+})
+console.log(fil)
+>>>>>>> ff9bf465cab3163b5d596e4e3f369480404e8643
