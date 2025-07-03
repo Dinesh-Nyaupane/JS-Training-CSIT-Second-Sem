@@ -19,7 +19,7 @@ delete book.genre;
 console.log(book);
 
 //5.Check if the property `title` exists in the `book` object using the `in` operator.
-console.log(Object.hasOwn(book, 'name'));
+console.log('title' in book); 
 
 //6. Use `Object.keys()` to list all properties of the `book` object.
 console.log(Object.keys(book));
