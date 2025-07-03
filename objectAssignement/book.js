@@ -13,12 +13,12 @@ console.log(Object.keys(book));//to display all the keys
 console.log(Object.values(book));//to display all the values 
 console.log(Object.entries(book));//to display all the key value pairs
 Object.defineProperty(book, 'summary', {//add property 'summary' with property non-enumerable
-    value:0,
-    writable: true,
-    enumerable: false,
-    configurable: true,
+    value:"madan",
+    writable: true,//to update
+    enumerable: false,//to loop
+    configurable: true,//delete or add
 });
-console.log(Object.getOwnPropertyDescriptor)
+console.log(Object.getOwnPropertyDescriptor(book,"summary"));
 for (let key in book) {//loop and not to display summary
     console.log(`${key}: ${book[key]}`);
 }
