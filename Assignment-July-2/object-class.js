@@ -32,7 +32,7 @@ console.log(Object.entries(book));
 
 //9.Use `Object.defineProperty()` to add a non-enumerable property `summary` with any string value.
 Object.defineProperty(book, 'summary', {
-    value:0,
+    value: "A classic Nepali poem that tells the" ,
     writable: true,
     enumerable: false,
     configurable: true,
