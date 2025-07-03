@@ -32,7 +32,7 @@ console.log(Object.entries(book));
 
 //9.Use Object.defineProperty() to add a non-enumerable property summary with any string value.
 Object.defineProperty(book, 'summary', {
-    value:0,
+    value: "good book",
     writable: true,
     enumerable: false,
     configurable: true,
@@ -41,5 +41,5 @@ console.log(Object.getOwnPropertyDescriptor(book , 'summary'));
 
 //10.Loop through the book object using a for...in loop and print each property and its value.
 for (let key in book) {
-    console.log(${key}: ${book[key]});
+    console.log(`${key}: ${book[key]}`);
 }
