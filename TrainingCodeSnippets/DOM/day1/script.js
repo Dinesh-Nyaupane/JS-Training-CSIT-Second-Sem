@@ -1,10 +1,29 @@
-let num1 = document.getElementById("num1");
-let num2 = document.getElementById("num2");
+// let mainId = document.getElementById("mainId").innerHTML="<i>THis is me</i>";
+// console.log(mainId)
 
-function add() {
-    let n1 = parseInt(num1.value);
-    let n2 = parseInt(num2.value)
-    let result = n1 + n2;
-    console.log("Result: " + result);
-    document.getElementById("result").innerText = "Result: " + result;
+//byClass
+//byTagname
+
+
+//HTMLcollection
+let mainClass = document.getElementsByTagName("p");
+console.log(mainClass)
+// // console.log(typeof mainClass)
+// // console.log(mainClass.length)
+
+
+for(let i = 0;i<mainClass.length;i++){
+    console.log(mainClass[i].innerText)
+}
+
+// let mainTag = document.getElementsByTagName("p")[0].textContent;
+// console.log(mainTag)
+
+//querySelector() - > first element 
+//querySelectorAll() -> all elements making HTML Collection
+
+let firstClass  = document.querySelectorAll("p");
+console.log(firstClass);
+for(let i = 0;i<firstClass.length;i++){
+    console.log(firstClass[i].innerText)
 }
