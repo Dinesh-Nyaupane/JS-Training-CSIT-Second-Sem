@@ -1,4 +1,3 @@
-Title: HTML DOM for Beginners - CSIT Second Semester
 
 ---
 
