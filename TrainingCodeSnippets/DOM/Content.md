@@ -1,3 +1,6 @@
+Title: HTML DOM for Beginners - CSIT Second Semester
+
+---
 
 # Chapter 1: Introduction to HTML DOM
 
@@ -135,9 +138,19 @@ Targeting all odd items:
 let oddItems = document.querySelectorAll("li:nth-child(odd)");
 ```
 
+## 2.6 Comparison Table of DOM Selector Methods
+
+| Method                     | Returns        | Live/Static | Accepts CSS Selectors | Example                         | Common Use Case                    |
+| -------------------------- | -------------- | ----------- | --------------------- | ------------------------------- | ---------------------------------- |
+| `getElementById()`         | Single element | N/A         | ❌ No                  | `getElementById("title")`       | Unique ID selection                |
+| `getElementsByClassName()` | HTMLCollection | ✅ Live      | ❌ No                  | `getElementsByClassName("box")` | Multiple elements by class         |
+| `getElementsByTagName()`   | HTMLCollection | ✅ Live      | ❌ No                  | `getElementsByTagName("p")`     | All `<p>` or any tag elements      |
+| `querySelector()`          | Single element | N/A         | ✅ Yes                 | `querySelector(".box")`         | First match using any CSS selector |
+| `querySelectorAll()`       | NodeList       | ❌ Static    | ✅ Yes                 | `querySelectorAll(".box")`      | All matches using any CSS selector |
+
 ---
 
-# Chapter 2.6: HTMLCollection vs NodeList
+# Chapter 2.7: HTMLCollection vs NodeList
 
 When selecting multiple elements in the DOM, you often get either an **HTMLCollection** or a **NodeList**. Understanding their differences is essential for working effectively with the DOM.
 
