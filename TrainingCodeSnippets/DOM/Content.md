@@ -380,6 +380,50 @@ Validate login or contact form before sending data to backend.
 
 * Input rows & columns, create table dynamically
 
+## 7.5 Stopwatch
+
+* Start, pause, reset timer using `setInterval`
+
+## 7.6 Analog Clock
+
+* Create real-time rotating hands using `transform: rotate()`
+
+## 7.7 Tip Calculator
+
+* Calculate tip amount and total bill using form input
+
+## 7.8 Counter App
+
+* Increment/decrement with buttons and event listeners
+
+## 7.9 Image Gallery Viewer
+
+* Click thumbnail to change large image preview
+
+## 7.10 Temperature Converter
+
+* Convert Celsius to Fahrenheit and vice versa
+
+## 7.11 Quiz App
+
+* Display questions, collect answers, show score
+
+## 7.12 Password Strength Checker
+
+* Show password strength dynamically while typing
+
+## 7.13 Accordion
+
+* Expand/collapse content using DOM toggle
+
+## 7.14 Modal Popup
+
+* Open and close modal using classList
+
+## 7.15 Character Counter
+
+* Live character count while typing in textarea
+
 ---
 
 # Chapter 8: Practice Questions
@@ -411,4 +455,3 @@ Validate login or contact form before sending data to backend.
 * [W3Schools DOM Tutorial](https://www.w3schools.com/js/js_htmldom.asp)
 
 ---
-
