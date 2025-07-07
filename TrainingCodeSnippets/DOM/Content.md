@@ -1,5 +1,5 @@
 
-#Chapter 1: Introduction to HTML DOM
+# Chapter 1: Introduction to HTML DOM
 
 ## 1.1 What is DOM?
 
