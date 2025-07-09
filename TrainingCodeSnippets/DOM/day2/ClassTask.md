@@ -9,6 +9,9 @@
       background-color: yellow;
       font-weight: bold;
     }
+    h1{
+        width: 100%;
+    }
   </style>
 </head>
 <body>
@@ -38,6 +41,7 @@
   <script src="script.js"></script>
 </body>
 </html>
+```
 Tasks to Perform in script.js
 
 🔹 Task 1: getElementById

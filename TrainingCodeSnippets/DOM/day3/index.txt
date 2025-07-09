@@ -1,0 +1,9 @@
+// DOM Manipulation
+
+createElement() -> creates element [new tags].
+append(elements,text) -> 
+remove() -> removes element iteslf
+appendChild(element) ->
+parent.removeChild(child)->
+
+replaceChild(new,old) ->
