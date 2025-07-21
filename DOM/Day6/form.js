@@ -15,5 +15,4 @@ button.addEventListener("click", (event) => {
     listShow.removeChild(listItem);
   });
   listInput.value = "";
-
 });
