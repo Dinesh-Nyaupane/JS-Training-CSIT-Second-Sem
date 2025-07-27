@@ -20,7 +20,7 @@ Object.assign(p.style, {
 });
 img1.addEventListener("mouseover", () => {
   Object.assign(image1.style, {
-    scale:"1.2",
+    scale: "1.2",
     transition: "0.8s ease-in-out",
   });
   Object.assign(p.style, {
@@ -30,7 +30,7 @@ img1.addEventListener("mouseover", () => {
 });
 img1.addEventListener("mouseout", () => {
   Object.assign(image1.style, {
-   scale:"1",
+    scale: "1",
   });
   Object.assign(p.style, {
     display: "none",
