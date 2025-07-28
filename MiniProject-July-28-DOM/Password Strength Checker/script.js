@@ -5,7 +5,7 @@ const btn = document.getElementById("btn");
 function hasUpperCase(str) {
   for (let i = 0; i < str.length; i++) {
     let code = str.charCodeAt(i);
-    if (code >= 65 && code <= 90) return true; 
+    if (code >= 65 && code <= 90) return true;
   }
   return false;
 }
