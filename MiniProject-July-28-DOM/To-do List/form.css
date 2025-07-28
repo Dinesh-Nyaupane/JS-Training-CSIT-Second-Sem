@@ -36,7 +36,7 @@ input[type="text"] {
 }
 
 #btn {
-  background-color: #28a745;
+  background-color: #c82333;
   color: white;
   border: none;
   padding: 10px;
@@ -48,7 +48,7 @@ input[type="text"] {
 }
 
 #btn:hover {
-  background-color: #218838;
+  background-color: #dc3545;
 }
 
 #list {

@@ -6,6 +6,11 @@ const button = document.getElementById("btn");
 button.addEventListener("click", (event) => {
   event.preventDefault();
 
+  if (listInput.value.trim() === "") {
+    alert("Input Required");
+    return;
+  }
+  
   const listItem = document.createElement("li");
   listShow.appendChild(listItem);
 
