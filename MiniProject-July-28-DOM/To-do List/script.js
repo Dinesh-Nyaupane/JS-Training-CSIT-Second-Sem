@@ -10,7 +10,7 @@ button.addEventListener("click", (event) => {
     alert("Input Required");
     return;
   }
-  
+
   const listItem = document.createElement("li");
   listShow.appendChild(listItem);
 
@@ -28,7 +28,7 @@ button.addEventListener("click", (event) => {
   deleteButton.innerText = `Delete`;
   listItem.appendChild(deleteButton);
 
-  deleteButton.addEventListener("click", () => {
+  deleteButton.addEventListener("click", () => { 
     listShow.removeChild(listItem);
   });
 
