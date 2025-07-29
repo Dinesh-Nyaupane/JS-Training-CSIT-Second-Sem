@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    background-color: black;
+    font-family: sans-serif;
+}
+.main{
+    border: 5px solid black;
+    padding: 1% 5% 3% 5%;
+    background-color: rgb(252, 223, 200);
+}
+.container{
+   font-size: larger;
+}
+#andar{
+    padding: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    border: none;
+    border-radius:30px;
+    
+}
+#andar:focus{
+    border: none;
+}
+.sarir{
+
+    background-color: white;
+    border-radius: 30px;
+}
+#subbut{
+    background-color: rgb(93, 211, 93);
+    font-size: x-large;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    color: white;
+ 
+}
+
+.list{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.delete{
+    background-color: red;
+    font-size: large;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+}
