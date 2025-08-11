@@ -49,11 +49,3 @@ password.addEventListener("input", () => {
     strengthText.style.color = "green";
   }
 });
-
-btn.addEventListener("click", () => {
-  if (password.value === "") {
-    alert("Please enter a password.");
-  } else {
-    alert("Submitted!");
-  }
-});
