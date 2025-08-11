@@ -1,6 +1,5 @@
 const password = document.getElementById("password");
 const strengthText = document.getElementById("strength-text");
-const btn = document.getElementById("btn");
 
 function hasUpperCase(str) {
   for (let i = 0; i < str.length; i++) {
